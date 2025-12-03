@@ -14,9 +14,11 @@ export default function AdminDashboard() {
   });
 
   const { data: applicationsData } = useQuery({
-    queryKey: ['admin-applications'],
-    queryFn: applicationsApi.getAllApplications,
-  });
+  queryKey: ["applications"],
+  queryFn: () => applicationsApi.getAllApplications(),
+});
+
+
 
   const pets = petsData?.pets || [];
   const applications = applicationsData?.applications || [];

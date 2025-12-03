@@ -1,5 +1,4 @@
 import { apiClient } from './client';
-import type { Pet } from '@/types';
 
 interface GetPetsParams {
   search?: string;

@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Select } from '@/components/ui/select';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Search, Filter, PawPrint, Heart, Check, X, MapPin } from 'lucide-react';
+import { Search, Filter, PawPrint, Heart, Check, MapPin } from 'lucide-react';
 
 export default function PetList() {
   const [search, setSearch] = useState('');

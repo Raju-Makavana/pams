@@ -207,12 +207,12 @@ export default function ForgotPassword() {
                   </p>
                 </div>
 
-                <Button asChild className="w-full h-12 bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 text-white cursor-pointer">
-                  <Link to="/login">
+                <Link to="/login" className="block w-full">
+                  <Button className="w-full h-12 bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90 cursor-pointer">
                     <ArrowLeft className="w-4 h-4 mr-2" />
                     Back to Login
-                  </Link>
-                </Button>
+                  </Button>
+                </Link>
 
                 <div className="text-center">
                   <p className="text-xs text-muted-foreground">

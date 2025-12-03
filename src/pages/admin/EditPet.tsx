@@ -11,7 +11,7 @@ import { Label } from '@/components/ui/label';
 import { Select } from '@/components/ui/select';
 import { ImageGallery } from '@/components/ui/image-gallery';
 import Swal from 'sweetalert2';
-import { ImagePlus, ArrowLeft, Image as ImageIcon, Link as LinkIcon, Plus, X } from 'lucide-react';
+import { ArrowLeft, Image as ImageIcon, Link as LinkIcon, Plus, X } from 'lucide-react';
 
 interface PetForm {
   name: string;
